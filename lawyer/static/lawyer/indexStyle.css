@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  border: 1px solid brown;
+}
+
+.practiceArea {
+  max-width: 82vw;
+  margin: auto;
+  margin-top: 3vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.practiceAreaTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.practiceAreaBottomParent {
+  margin-top: 1.5vmax;
+}
+
+.aboutusMainSection {
+  /* height: 75vh; */
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 2vmax;
+  width: 97vw;
+  margin: auto;
+}
+
+.aboutUsHeading {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8vmax;
+  margin-bottom: 0.8vmax;
+}
+
+.aboutUsDescription {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5vmax;
+}
+
+.WelcomeHeading {
+  width: 55%;
+  padding-right: 5vmax;
+  padding-left: 6vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.WelcomeImage {
+  box-shadow: 1vmax 1vmax #2a7648;
+}
+
+@media (max-width: 1200px) {
+  #Welcomeimage {
+    /* width: 25rem; */
+  }
+  .aboutusMainSection {
+    width: 98vw;
+    /* margin: auto; */
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1068px) {
+  .WelcomeImage {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 899px) {
+  .aboutusMainSection {
+    width: 85vw;
+  }
+  .aboutUsDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmax;
+  }
+  .WelcomeHeading {
+    width: 90%;
+    margin-bottom: 2vmax;
+    padding: 0;
+  }
+}
+
+.banner {
+  /* height: 15vmax; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  margin: auto;
+  width: 98vw;
+  padding: 3vmax;
+  background: rgb(0 0 0 / 89%);
+  color: #ffe65ffc;
+  font-style: italic;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: cursive;
+}
+
+.ChooseUsSection {
+  width: 98vw;
+  border: 1px solid firebrick;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vmax;
+  /* background-color: white; */
+  height: auto;
+}
+
+.coatImage {
+  width: 42%;
+}
+.coatImage img {
+  width: 31vmax;
+  height: 47vmax;
+}
+
+.ChooseUsHeading {
+  /* padding-top: 4vmax;
+    padding-bottom: 2vmax; */
+  margin-bottom: 3vmax;
+}
+
+.ChooseUsCards {
+  /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1vmax;
+  row-gap: 1vmax;
+}
+
+.CardSVG {
+  width: 22rem;
+}
+
+.CardSVG img {
+  width: 4vmax;
+  /* fill: tomato; */
+}
+
+@media (min-width: 1000px) and (max-width: 1281px) {
+  .coatImage {
+    margin-right: 1vmax;
+  }
+  .coatImage img {
+    width: 31vmax;
+    height: 55vmax;
+  }
+  .ChooseUsDetails {
+    border: 1px solid red;
+    width: 100%;
+  }
+  .ChooseUsHeading {
+    border: 1px solid black;
+    width: 100%;
+  }
+
+  .ChooseUsSection {
+    width: 98vmax;
+  }
+  .CardSVG {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .card {
+    width: 28vmax;
+  }
+}
+
+@media (max-width: 999px) {
+  .ChooseUsSection {
+    width: 97vw;
+  }
+  .coatImage {
+    display: none;
+  }
+  .ChooseUsCards {
+    border: 1px solid orangered;
+    width: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .CardSVG {
+    width: 54vmax;
+  }
+}
+
+/* Counter up Section */
+
+.CounterUpSection {
+  height: 15vmax;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: blanchedalmond;
+  width: 99vw;
+  margin: auto;
+}
+
+.MainCounters {
+  border: 1px dotted white;
+  padding: 2vmax 2vmax;
+}
